@@ -408,12 +408,12 @@ span+span {
     font-family: 'PT Sans';
     color: var(--beaver);
     font-weight: bold;
-    font-size: 3.2rem;
+    font-size: 4.5rem;
     margin-bottom: 1rem;
 }
 
 
-@media screen and (min-width: 1400px ){ 
+@media screen and (min-width: 1500px ){ 
     .home_text-2 {
         font-size: 6rem;
     }
