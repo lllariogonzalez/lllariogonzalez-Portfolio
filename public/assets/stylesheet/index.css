@@ -88,7 +88,7 @@ html::-webkit-scrollbar-thumb {
 
 .logo-complete {
     position: absolute;
-    left: 6%;
+    left: 6vw;
     color: var(--beaver);
     font-family: 'Roboto';
     font-size: 1.5rem;
@@ -96,7 +96,7 @@ html::-webkit-scrollbar-thumb {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .logo-complete{
         display: none;
     }
@@ -361,7 +361,7 @@ span+span {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .home_animate {
         margin-left: 50%;
         transform: translate(-50%,0%);
@@ -408,14 +408,14 @@ span+span {
     font-family: 'PT Sans';
     color: var(--beaver);
     font-weight: bold;
-    font-size: 4.5rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
 
-@media screen and (min-width: 1500px ){ 
+@media screen and (max-width: 1200px ){ 
     .home_text-2 {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 }
 
