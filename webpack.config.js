@@ -1,7 +1,7 @@
 module.exports = {
-    entry: './script.js',
+    entry: './public/script.js',
     output: {
-        path: __dirname + '/dist',
+        path: __dirname + '/public/dist',
         filename: 'bundle.js',
     },
     devtool: 'eval-source-map',
