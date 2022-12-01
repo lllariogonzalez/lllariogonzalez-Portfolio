@@ -2,6 +2,7 @@ const btn = document.getElementById('button');
 const sectionAll = document.querySelectorAll('section[id]');
 const inputName = document.querySelector('#nombre');
 const inputEmail = document.querySelector('#email');
+const go = document.querySelectorAll('#nav-link');
 
 /* ===== Loader =====*/
 window.addEventListener('load', () => {
@@ -30,6 +31,16 @@ btn.addEventListener('click', function() {
         document.querySelector('.nav_menu').classList.remove('not-active');
         document.querySelector('.nav_menu').classList.add('active');
     }
+});
+
+/* ===== Menu =====*/
+go.forEach(e=>{
+    e.addEventListener('click', function() {
+    btn.classList.remove('active');
+    btn.classList.add('not-active');
+    document.querySelector('.nav_menu').classList.remove('active');
+    document.querySelector('.nav_menu').classList.add('not-active');
+    });
 });
 
 /*===== class active por secciones =====*/

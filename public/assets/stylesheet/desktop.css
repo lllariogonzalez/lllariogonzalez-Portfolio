@@ -217,7 +217,7 @@ div.btn {
 
 .cards--habilidades:hover {
     filter: grayscale(0);
-    border: 1px solid var(--beaver);
+    border: 1px dashed var(--beaver);
     transition: all 1s;
 }
 
@@ -247,6 +247,12 @@ div.btn {
     transform: scale(1.1);
 }
 
+.cards--proyectos:hover {
+    border: 1px dashed var(--beaver);
+    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    transform: scale(1.1);
+}
+
 /* Proyectos */
 
 .proyectos h1 {
@@ -271,6 +277,7 @@ div.btn {
 .cards_container--proyectos {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .cards--proyectos {
@@ -284,7 +291,15 @@ div.btn {
 }
 
 .text-portafolio {
-    margin-top: -3rem;
+    margin: auto;
+    margin-top: 0rem;
+}
+
+.ico{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
 }
 
 /* Contacto */

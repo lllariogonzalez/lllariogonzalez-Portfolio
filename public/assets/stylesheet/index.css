@@ -52,7 +52,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 ::selection {
-    background-color: #776254;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* Header */
@@ -553,7 +554,7 @@ span+span {
     font-size: 1.5rem;
     letter-spacing: .1rem;
     white-space: pre-line;
-    text-align: justify;
+    text-align: left;
     line-height: 2.2rem;
 }
 
@@ -772,10 +773,11 @@ img.logo-UNR {
 }
 
 .cards_container--proyectos {
-    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 15rem;
 }
 
 .cards--proyectos {
@@ -809,7 +811,9 @@ img.logo-UNR {
 
 .container_textCard--proyectos {
     padding: 0 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
+    width: 95%;
+    text-align: left;
 }
 
 .container_textCard--proyectos h2 {
@@ -826,7 +830,8 @@ img.logo-UNR {
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     font-size: 1.4rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .container_btn--proyectos {
