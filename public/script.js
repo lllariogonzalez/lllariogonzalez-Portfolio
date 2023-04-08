@@ -1,77 +1,29 @@
-const btn = document.getElementById('button')
-const sectionAll = document.querySelectorAll('section[id]')
-const go = document.querySelectorAll('#nav-link')
+const container = document.getElementById('container')
+const colors = ['#e74c3c', '#8e44ad', '#3498db', '#e67e22', '#2ecc71']
+const SQUARES = 500
 
-/* ===== Loader ===== */
-window.addEventListener('load', () => {
-  const contenedorLoader = document.querySelector('.container--loader')
-  contenedorLoader.style.opacity = 0
-  contenedorLoader.style.visibility = 'hidden'
-})
+for(let i = 0; i < SQUARES; i++) {
+    const square = document.createElement('div')
+    square.classList.add('square')
 
-/* ===== Header ===== */
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('header')
-  header.classList.toggle('abajo', window.scrollY > 0)
-})
+    square.addEventListener('mouseover', () => setColor(square))
 
-/* ===== Boton Menu ===== */
-btn.addEventListener('click', function () {
-  if (this.classList.contains('active')) {
-    this.classList.remove('active')
-    this.classList.add('not-active')
-    document.querySelector('.nav_menu').classList.remove('active')
-    document.querySelector('.nav_menu').classList.add('not-active')
-  } else {
-    this.classList.add('active')
-    this.classList.remove('not-active')
-    document.querySelector('.nav_menu').classList.remove('not-active')
-    document.querySelector('.nav_menu').classList.add('active')
-  }
-})
+    square.addEventListener('mouseout', () => removeColor(square))
 
-/* ===== Menu ===== */
-go.forEach((e) => {
-  e.addEventListener('click', function () {
-    btn.classList.remove('active')
-    btn.classList.add('not-active')
-    document.querySelector('.nav_menu').classList.remove('active')
-    document.querySelector('.nav_menu').classList.add('not-active')
-  })
-})
-
-/* ===== class active por secciones ===== */
-window.addEventListener('scroll', () => {
-  const scrollY = window.pageYOffset
-  sectionAll.forEach((current) => {
-    const sectionHeight = current.offsetHeight
-    const sectionTop = current.offsetTop - 100
-    const sectionId = current.getAttribute('id')
-
-    if (scrollY > sectionTop && scrollY < sectionTop + sectionHeight) {
-      document
-        .querySelector('nav a[href*=' + sectionId + ']')
-        .classList.add('active')
-    } else {
-      document
-        .querySelector('nav a[href*=' + sectionId + ']')
-        .classList.remove('active')
-    }
-  })
-})
-
-/* ===== Boton y función ir arriba ===== */
-window.onscroll = function () {
-  if (document.documentElement.scrollTop > 500) {
-    document.querySelector('.go-top-container').classList.add('show')
-  } else {
-    document.querySelector('.go-top-container').classList.remove('show')
-  }
+    container.appendChild(square)
 }
 
-document.querySelector('.go-top-container').addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  })
-})
+function setColor(element) {
+   const color = getRandomColor()
+   element.style.background = color
+   element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`
+}
+
+function removeColor(element) {
+   element.style.background = '#1d1d1d'
+   element.style.boxShadow = '0 0 2px #000'
+}
+
+function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)]
+}
