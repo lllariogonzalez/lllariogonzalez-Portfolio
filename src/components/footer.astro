@@ -1,0 +1,92 @@
+---
+import Logo from "./logo.astro";
+const thumbnail = "/music/Bendicion.jpg";
+const artist = "Elevation Worship";
+const song = "La Bendición (The Blessing)";
+const link = "https://youtu.be/pVb8rGuIkag";
+---
+
+<footer
+  class="flex flex-col border-t-[1px] border-[#0001] dark:border-[#ffffff15] py-10 gap-12"
+>
+  <section
+    class="flex flex-col sm:flex-row sm:items-center gap-8 sm:justify-between"
+  >
+    <div
+      class="flex gap-2 items-center font-bold text-light-texto-primary dark:text-dark-texto-primary"
+    >
+      <Logo />Mario Gonzalez
+    </div>
+    <ul class="flex flex-col sm:flex-row gap-3 sm:gap-8">
+      <li>
+        <a
+          class="text-light-texto-secondary dark:text-dark-texto-secondary font-medium text-[0.91rem] hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
+          href="#home">Inicio</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-light-texto-secondary dark:text-dark-texto-secondary font-medium text-[0.91rem] hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
+          href="#jobs">Experiencia</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-light-texto-secondary dark:text-dark-texto-secondary font-medium text-[0.91rem] hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
+          href="#projects">Proyectos</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-light-texto-secondary dark:text-dark-texto-secondary font-medium text-[0.91rem] hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
+          href="#education">Educación</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-light-texto-secondary dark:text-dark-texto-secondary font-medium text-[0.91rem] hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
+          href="/CV Mario Gonzalez FullStack Developer.pdf"
+          target="_blank"
+          download>Currículum</a
+        >
+      </li>
+    </ul>
+  </section>
+  <section
+    class="flex flex-col sm:flex-row sm:items-center gap-8 sm:justify-between"
+  >
+    <div class="flex flex-col gap-2">
+      <div class="flex items-center gap-3">
+        <img
+          src={thumbnail}
+          alt={`Song thumbnail of the song ${song} by ${artist}`}
+          class="flex items-center justify-center text-[0.7rem] text-center h-11 w-11 bg-light-gray-secondary dark:bg-dark-gray-secondary rounded-md"
+          loading="lazy"
+        />
+        <div class="flex flex-col">
+          <a
+            href={link}
+            target="_blank"
+            class="text-light-texto-primary dark:text-dark-texto-primary font-extrabold text-[0.91rem] -mb-1 hover:underline"
+          >
+            {song}
+          </a>
+
+          <span
+            class="text-light-gray-primary dark:text-dark-gray-primary text-[0.81rem]"
+            >{artist}</span
+          >
+        </div>
+      </div>
+    </div>
+    <small
+      class="text-light-gray-primary dark:text-dark-gray-primary text-[0.75rem] max-w-md sm:text-end"
+      >Este portfolio es de código abierto. Siéntete libre de usarlo, pero no
+      olvides dejar una ⭐ al repo. Puedes encontrar el repositorio <a
+        class="text-light-texto-primary dark:text-dark-texto-primary hover:underline"
+        href="https://github.com/lllariogonzalez/portfolio"
+        target="_blank">aquí</a
+      >.
+    </small>
+  </section>
+</footer>

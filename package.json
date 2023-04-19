@@ -1,28 +1,28 @@
 {
-  "name": "lllariogonzalez-portfolio",
-  "version": "1.0.0",
-  "description": "My portfolio",
-  "main": "script.js",
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "build": "webpack",
-    "lint": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^1.2.2",
+    "@astrojs/tailwind": "^3.1.0",
+    "@astrojs/vercel": "^3.2.4",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "astro": "^2.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.7"
+  },
   "devDependencies": {
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.5.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^2.8.0",
-    "standard": "17.0.0",
-    "webpack": "5.75.0",
-    "webpack-cli": "5.0.0"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "eslint": "^8.26.0",
+    "eslint-plugin-astro": "^0.20.0"
   }
 }

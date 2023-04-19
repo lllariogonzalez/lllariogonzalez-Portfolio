@@ -1,0 +1,123 @@
+[
+    {
+        "id": "1",
+        "jobPicture": "tecno.webp",
+        "jobColor": "#0086eb",
+        "jobTitle": "Desarrollador Web Full Stack",
+        "jobTime": "Octubre 2022 - Noviembre 2022 (2 meses)",
+        "jobCompany": "Tecnoshop E-commerce Proyecto Final soyHenry.",
+        "jobDescription": "Colaboré en el desarrollo de un E-commerce, integrando un equipo de 8 personas trabajando bajo metodologías ágiles SCRUM. Mi aporte mas importante fue solucionar el funcionamiento correcto del carrito de compras y todas sus integraciones.",
+        "jobActivities": [
+            "Estructurar y configurarlas bases del proyecto, React, Redux, y la APIs con Node.js y Express utilizando MVC como patron de diseño.",
+            "Crear y diseñar tablas y relaciones de la base de datos",
+            "Establecer autenticación y autorización de usuarios utilizando Auth0, JWT y métodos de entriptación",
+            "Desarrollé varias funcionalidades del Dashboard Administrativo, implementando además gráficos estadísticos de negocio",
+            "Programé un Bot de Whatsapp con whatsapp-web.js para dar soporte al usuario",
+            "Implemente notificaciones vía email con Nodemailer",
+            "Me encargué del despliegue y configuraciones necesarias para llevarlo a producción"
+        ],
+        "jobTechnologies": [
+            {
+                "name": "React.js",
+                "icon": "react"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "javascript"
+            },
+            {
+                "name": "Node.js",
+                "icon": "node"
+            },
+            {
+                "name": "Express.js",
+                "icon": "express"
+            },
+            {
+                "name": "NPM",
+                "icon": "npm"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "postgresql"
+            },
+            {
+                "name": "Sequelize",
+                "icon": "sequelize"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "bootstrap"
+            },
+            {
+                "name": "Figma",
+                "icon": "figma"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "jobPicture": "poke.webp",
+        "jobColor": "#3a7d44",
+        "jobTitle": "Desarrollador Web Full Stack",
+        "jobTime": "Agosto 2020 - Octubre 2022 (1 mes)",
+        "jobCompany": "Proyecto Individual soyHenry",
+        "jobDescription": "Desarrollé una SPA: Single Page Application, con React y demás tecnologías instruidas en el Bootcamp sin ayuda de otras liberías y de la forma mas pura posible, creando soluciones y algoritmos propios.",
+        "jobActivities": [
+            "Implementé Paginado, Filtrado, Creación, Consumo de Rest Api de pokemon.",
+            "Desarrollé un servidor Backend utilizando NodeJs, Express, PostgreSQL y Sequelize.",
+            "Modeladé e implementé bases de datos SQL.",
+            "Diseñé componentes web responsive."
+        ],
+        "jobTechnologies": [
+            {
+                "name": "HTML",
+                "icon": "html"
+            },
+            {
+                "name": "CSS",
+                "icon": "css"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "javascript"
+            },
+            {
+                "name": "React",
+                "icon": "react"
+            },
+            {
+                "name": "Node.js",
+                "icon": "node"
+            },
+            {
+                "name": "Express.js",
+                "icon": "express"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "postgresql"
+            },
+            {
+                "name": "Sequelize",
+                "icon": "sequelize"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            }
+        ]
+    }
+]

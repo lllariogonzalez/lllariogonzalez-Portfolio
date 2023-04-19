@@ -1,0 +1,105 @@
+[
+    {
+        "id": "tecnoshop",
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp",
+            "5.webp",
+            "6.webp",
+            "7.webp"
+        ],
+        "projectRepo": "https://github.com/lllariogonzalez/e-commerce",
+        "projectSite": "https://e-commerce-tecnoshop.vercel.app",
+        "projectTitle": "TECNOSHOP Ecommerce",
+        "projectSlogan": "Comercio electrónico de tecnología",
+        "projectDescription": "E-commerce app web, integración con MercadoPago, solución conveniente y segura de comprar en línea, explorar y comprar productos desde la comodidad del hogar o dispositivo móvil. Interfaz amigable, busqueda, filtrados, categorías, notificaciones y un completo control administrativo en cuanto a producto, usuarios y marketing",
+        "projectTechnologies": [
+            {
+                "name": "React.js",
+                "icon": "react"
+            },
+            {
+                "name": "CSS Modules",
+                "icon": "css"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "bootstrap"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "javascript"
+            },
+            {
+                "name": "Node.js",
+                "icon": "node"
+            },
+            {
+                "name": "Express.js",
+                "icon": "express"
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "postgresql"
+            },
+            {
+                "name": "Sequelize",
+                "icon": "sequelize"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "name": "Vercel",
+                "icon": "vercel"
+            }
+        ]
+    },
+    {
+        "id": "pokeapi",
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp"
+        ],
+        "projectRepo": "https://github.com/lllariogonzalez/pokemons-spa",
+        "projectSite": "https://poke-app-seven.vercel.app",
+        "projectTitle": "Pokeapi",
+        "projectSlogan": "App para buscar y crear tus Pokémons",
+        "projectDescription": "Un sitio web para generar nombres de mascotas graciosos y pegadizos usando los servicios de inteligencia artificial de Co:here.\nFue desarrollado para participar en la hackathon organizada por Miguel Ángel Durán (Midudev), usando Next.js y desplegado en Vercel.",
+        "projectTechnologies": [
+            {
+                "name": "Next.js",
+                "icon": "nextjs"
+            },
+            {
+                "name": "CSS Modules",
+                "icon": "css"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "javascript"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "name": "Vercel",
+                "icon": "vercel"
+            }
+        ]
+    }
+]

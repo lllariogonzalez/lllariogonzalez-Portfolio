@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "educationPicture": "soyHenry.webp",
+        "educationTitle": "Full Stack Web Developer",
+        "educationTime": "Diciembre 2022",
+        "educationCompany": "soyHenry",
+        "educationLink": ""
+    },
+    {
+        "id": "2",
+        "educationPicture": "freeCodeCamp.webp",
+        "educationTitle": "Full Stack Web Developer",
+        "educationTime": "Octubre 2022",
+        "educationCompany": "freeCodeCamp.org"
+    },
+    {
+        "id": "3",
+        "educationPicture": "unCuyo.webp",
+        "educationTitle": "Contador Público y Perito Partidor",
+        "educationTime": "2007-2012",
+        "educationCompany": "Universidad Nacional de Cuyo",
+        "educationLink": ""
+    }
+]
