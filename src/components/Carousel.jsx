@@ -38,7 +38,7 @@ export const Carousel = ({ images, path = "" }) => {
 
     return (
         <div
-            className="relative flex justify-center items-center w-full bg-primary overflow-hidden"
+            className="relative flex justify-center items-center w-full h-56 sm:h-full bg-primary overflow-hidden"
             ref={containerRef}
         >
             <ul
