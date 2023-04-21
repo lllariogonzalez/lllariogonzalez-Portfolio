@@ -76,7 +76,7 @@
         "projectSite": "https://poke-app-seven.vercel.app",
         "projectTitle": "Pokeapi",
         "projectSlogan": "App para buscar y crear tus Pokémons",
-        "projectDescription": "Un sitio web para generar nombres de mascotas graciosos y pegadizos usando los servicios de inteligencia artificial de Co:here.\nFue desarrollado para participar en la hackathon organizada por Miguel Ángel Durán (Midudev), usando Next.js y desplegado en Vercel.",
+        "projectDescription": "Proyecto SPA creado con React y Style module con CSS puro en el front y Node.js, Express, PostgreSQL y Sequelize en el back para crear nuevos pokemons y jugar con la app. Busqueda, Filtrado, Paginado y Diseño web responsive",
         "projectTechnologies": [
             {
                 "name": "Next.js",
