@@ -55,32 +55,8 @@ const link = "https://youtu.be/pVb8rGuIkag";
   <section
     class="flex flex-col sm:flex-row sm:items-center gap-8 sm:justify-between"
   >
-    <div class="flex flex-col gap-2">
-      <div class="flex items-center gap-3">
-        <img
-          src={thumbnail}
-          alt={`Song thumbnail of the song ${song} by ${artist}`}
-          class="flex items-center justify-center text-[0.7rem] text-center h-11 w-11 bg-light-gray-secondary dark:bg-dark-gray-secondary rounded-md"
-          loading="lazy"
-        />
-        <div class="flex flex-col">
-          <a
-            href={link}
-            target="_blank"
-            class="text-light-texto-primary dark:text-dark-texto-primary font-extrabold text-[0.91rem] -mb-1 hover:underline"
-          >
-            {song}
-          </a>
-
-          <span
-            class="text-light-gray-primary dark:text-dark-gray-primary text-[0.81rem]"
-            >{artist}</span
-          >
-        </div>
-      </div>
-    </div>
     <small
-      class="text-light-gray-primary dark:text-dark-gray-primary text-[0.75rem] w-full max-w-md sm:text-end"
+      class="text-light-gray-primary dark:text-dark-gray-primary text-[0.75rem] w-full text-center"
       >Este portfolio es de código abierto, realizado con <img
         class="inline h-3 w-auto"
         src={`/icons/astro.svg`}
@@ -91,11 +67,17 @@ const link = "https://youtu.be/pVb8rGuIkag";
         src={`/icons/tailwind.svg`}
         alt={`Tailwind icons`}
         loading="lazy"
-      /> Tailwind CSS. Repositorio <a
+      /> Tailwind CSS. <a
         class="text-light-texto-primary dark:text-dark-texto-primary hover:underline"
         href="https://github.com/lllariogonzalez/lllariogonzalez-Portfolio"
-        target="_blank">aquí⭐</a
-      >.
+        target="_blank"
+        >Repositorio <img
+          class="inline h-3 w-auto"
+          src={`/icons/github.svg`}
+          alt={`Tailwind icons`}
+          loading="lazy"
+        /></a
+      >
     </small>
   </section>
 </footer>
