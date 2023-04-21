@@ -4,51 +4,46 @@ import "../styles/globals.css";
 ---
 
 <html lang="es" class="dark">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-        />
-        <meta
-            name="description"
-            content="Desarrollador con pasión por construir sitios web memorables."
-        />
-        <meta name="author" content="Devenapuros" />
-        <meta
-            name="keywords"
-            content="Daniel Gomez,Desarrollador Frontend,frontend,Desarrollador,JavaScript,React.js"
-        />
-        <meta
-            property="og:title"
-            content="Daniel Gómez - Desarrollador Frontend"
-        />
-        <meta property="og:url" content="https://danieldev.tech" />
-        <meta property="og:image" content="/ogimage.png" />
-        <meta
-            property="og:description"
-            content="Desarrollador con pasión por construir sitios web memorables."
-        />
-        <title>{title}</title>
-    </head>
-    <body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
-        <slot />
-        <script>
-            const darkThemeMq = window.matchMedia(
-                "(prefers-color-scheme: dark)"
-            );
-            if (darkThemeMq.matches) {
-                document.body.classList.add("dark");
-                document.documentElement.classList.add("dark");
-            } else {
-                document.body.classList.remove("dark");
-                document.documentElement.classList.remove("dark");
-            }
-        </script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Desarrollador con pasión por construir sitios web memorables."
+    />
+    <meta name="author" content="Devenapuros" />
+    <meta
+      name="keywords"
+      content="Daniel Gomez,Desarrollador Frontend,frontend,Desarrollador,JavaScript,React.js"
+    />
+    <meta property="og:title" content="Daniel Gómez - Desarrollador Frontend" />
+    <meta property="og:url" content="https://danieldev.tech" />
+    <meta property="og:image" content="/ogimage.png" />
+    <meta
+      property="og:description"
+      content="Desarrollador con pasión por construir sitios web memorables."
+    />
+    <title>{title}</title>
+  </head>
+  <body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
+    <slot />
+    <script>
+      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+      if (darkThemeMq.matches) {
+        document.body.classList.add("dark");
+        document.documentElement.classList.add("dark");
+      } else {
+        document.body.classList.remove("dark");
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </body>
 </html>

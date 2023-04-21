@@ -45,20 +45,39 @@ export const Carousel = ({ images, path = "" }) => {
                 className=" rounded-xl carousel-viewport flex gap-0 h-fit scroll-smooth snap-x snap-mandatory overflow-x-scroll overflow-y-hidden transition-all duration-200"
                 ref={carouselRef}
             >
-                {images.map((image, index) => (
-                    <li
-                        className="px-12 flex-shrink-0 flex-grow-0 snap-start snap-always gap-0 w-full"
-                        key={image}
-                        data-index={index}
-                    >
-                        <img
-                            className="w-full h-full rounded-xl"
-                            src={`/projects/${path}/${image}`}
-                            alt=""
-                            loading="lazy"
-                        />
-                    </li>
-                ))}
+                {images.map((image, index) => {
+                    if (index === images.length - 1) {
+                        return (
+                            <li
+                                className="px-12 flex-shrink-0 flex-grow-0 snap-start snap-always gap-0 w-full"
+                                key={image}
+                                data-index={index}
+                            >
+                                <iframe
+                                    width="100%" height="100%"
+                                    src={image}
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen></iframe>
+                            </li>
+                        )
+                    } else {
+                        return (
+                            <li
+                                className="px-12 flex-shrink-0 flex-grow-0 snap-start snap-always gap-0 w-full"
+                                key={image}
+                                data-index={index}
+                            >
+                                <img
+                                    className="w-full h-full rounded-xl"
+                                    src={`/projects/${path}/${image}`}
+                                    alt=""
+                                    loading="lazy"
+                                />
+                            </li>
+                        )
+                    }
+                })}
             </ul>
             {currentSlide !== 0 && (
                 <button
@@ -107,6 +126,7 @@ export const Carousel = ({ images, path = "" }) => {
             <span className="absolute right-2 bottom-2 py-1 px-2 bg-[#fffb] rounded-md text-light-texto-secondary text-[0.75rem] font-bold">
                 {currentSlide + 1} / {images.length}
             </span>
+
         </div>
     );
 };
