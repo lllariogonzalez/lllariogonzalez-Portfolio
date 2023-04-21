@@ -70,7 +70,7 @@
         "jobTitle": "Desarrollador Web Full Stack",
         "jobTime": "Agosto 2020 - Octubre 2022 (1 mes)",
         "jobCompany": "Proyecto Individual soyHenry",
-        "jobDescription": "Desarrollé una SPA: Single Page Application, con React y demás tecnologías instruidas en el Bootcamp sin ayuda de otras liberías y de la forma mas pura posible, creando soluciones y algoritmos propios.",
+        "jobDescription": "Desarrollé una SPA: Single Page Application, con React, Redux y demás tecnologías instruidas en el Bootcamp sin ayuda de otras liberías y de la forma mas pura posible, creando soluciones y algoritmos propios.",
         "jobActivities": [
             "Implementé Paginado, Filtrado, Creación, Consumo de Rest Api de pokemon.",
             "Desarrollé un servidor Backend utilizando NodeJs, Express, PostgreSQL y Sequelize.",
