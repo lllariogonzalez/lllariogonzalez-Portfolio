@@ -1,6 +1,6 @@
 <h1 align="center">
   <div align="center">
-    <img alt="Devenpauros (Daniel Gomez) logo" src="./public/favicon.svg" height="150px" width="auto"/>
+    <img alt="icon" src="./public/favicon.svg" height="150px" width="auto"/>
   </div>
   <br/>
   Portfolio - Mario Gonzalez
