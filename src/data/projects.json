@@ -1,5 +1,56 @@
 [
     {
+        "id": "lanuevajerusalen",
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp",
+            "5.webp",
+            "6.webp",
+            "https://lanuevajerusalenamorysalvacion.com"
+        ],
+        "projectRepo": "https://github.com/lllariogonzalez/lanuevajerusalen-website",
+        "projectSite": "https://lanuevajerusalenamorysalvacion.com",
+        "projectTitle": "La Nueva Jerusalen",
+        "projectSlogan": "Iglesia Oficial Website",
+        "projectDescription": "Oficial Website Iglesia La Nueva Jerusalen, comunidad cristiana en la cual se comparte creencias, palabras, reuniones grabadas, imagenes, fotos y música de la Iglesia y de su comunidad, al mismo tiempo se espera escalar el proyecto y darle mas interactividad y actividad para el usuario",
+        "projectTechnologies": [
+            {
+                "name": "Next.js",
+                "icon": "nextjs"
+            },
+            {
+                "name": "React.js",
+                "icon": "react"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "typescript"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "tailwind"
+            },
+            {
+                "name": "KV Vercel Storage",
+                "icon": "vercel"
+            },
+            {
+                "name": "Google Api",
+                "icon": "google"
+            }
+        ]
+    },
+    {
         "id": "tecnoshop",
         "carouselImages": [
             "1.webp",
@@ -9,7 +60,7 @@
             "5.webp",
             "6.webp",
             "7.webp",
-            "https://www.youtube.com/embed/UWWrFgAO3vo"
+            "https://www.youtube.com/embed/ZuG8q0HQJRI"
         ],
         "projectRepo": "https://github.com/lllariogonzalez/e-commerce",
         "projectSite": "https://e-commerce-tecnoshop.vercel.app",
@@ -101,6 +152,48 @@
             {
                 "name": "Vercel",
                 "icon": "vercel"
+            }
+        ]
+    },
+    {
+        "id": "gifound",
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp",
+            "https://gifound.vercel.app"
+        ],
+        "projectRepo": "https://github.com/lllariogonzalez/GIFound",
+        "projectSite": "https://gifound.vercel.app",
+        "projectTitle": "GIFound",
+        "projectSlogan": "App para buscar y compartir tus gifs favoritos",
+        "projectDescription": "Proyecto SPA creado con Vite, React, Wouter y Style Components, Busqueda de gifs y links para compartirlos, busquedas recientes y populares, utiliza la api de Giphy",
+        "projectTechnologies": [
+            {
+                "name": "React.js",
+                "icon": "react"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "javascript"
+            },
+            {
+                "name": "Styled Components",
+                "icon": "styledcomponents"
+            },
+            {
+                "name": "Git",
+                "icon": "git"
+            },
+            {
+                "name": "Github",
+                "icon": "github"
+            },
+            
+            {
+                "name": "Vite",
+                "icon": "vite"
             }
         ]
     }
