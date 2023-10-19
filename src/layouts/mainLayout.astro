@@ -35,15 +35,5 @@ import "../styles/globals.css";
   </head>
   <body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
     <slot />
-    <script>
-      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-      if (darkThemeMq.matches) {
-        document.body.classList.add("dark");
-        document.documentElement.classList.add("dark");
-      } else {
-        document.body.classList.remove("dark");
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
   </body>
 </html>

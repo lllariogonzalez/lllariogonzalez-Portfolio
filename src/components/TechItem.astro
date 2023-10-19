@@ -1,12 +1,12 @@
 ---
-const { name, icon } = Astro.props;
+const { name, icon, id } = Astro.props;
 ---
 
 <li class="flex items-center gap-1 text-sm">
     <img
         class="h-4 w-auto"
         src={`/icons/${icon}.svg`}
-        alt={name}
+        alt={`${name} ${id}`}
         loading="lazy"
     />
     {name}
